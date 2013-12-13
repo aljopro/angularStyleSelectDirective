@@ -4,6 +4,7 @@
  * License: MIT
 */
 /* basic styles needed */
+@charset "UTF-8";
 .jc-style-select {
     position: relative;
     box-sizing: border-box;
