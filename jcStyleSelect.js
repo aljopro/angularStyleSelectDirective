@@ -1,3 +1,9 @@
+/*!
+ * @license Stylable Select Directive
+ * (c) 2013 John Chappell
+ * License: MIT
+ */
+
 'use strict';
 
 angular.module('jcStyleSelect', [])
