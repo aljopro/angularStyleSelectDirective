@@ -6,11 +6,11 @@
 /* basic styles needed */
 .jc-style-select {
     position: relative;
-    overflow: hidden;
 }
 .jc-style-select-value {
     position: absolute;
     left: 0;
+    white-space: nowrap;
 }
 .jc-style-select-control-wrapper {
     height: 100%;
@@ -38,7 +38,6 @@
 .jc-styled .jc-style-select:before {
     content: '▾';
     font-size: x-small;
-    height: 100%;
     position: absolute;
     right: 0px;
     top: 0;
@@ -49,7 +48,7 @@
 .jc-styled .jc-style-select-value {
     text-shadow: 0 1px 0 #fff;
     text-overflow: ellipsis;
-    white-space: nowrap;
+
     overflow: hidden;
     width: 150px;
     margin: 0 32px 0 8px;
