@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="jcStyleSelect.css" type="text/css">
+</head>
+<body ng-app="myApp" ng-controller="MainCtrl">
+
+<select jc-style-select ng-class="{karma: selectedThing == 'Karma'}" ng-options="thing for thing in awesomeThings" ng-model="selectedThing"></select>
+<span>{{ selectedThing }}</span>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script>
+<script src="jcStyleSelect.js"></script>
+<script>
+    angular.module('myApp', ['jcStyleSelect'])
+    .controller('MainCtrl', function ($scope) {
+        $scope.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma',
+            'Something really long to play with'
+        ];
+        $scope.selectedThing = $scope.awesomeThings[0];
+    });
+</script>
+</html>

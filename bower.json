@@ -1,0 +1,11 @@
+{
+    "name": "angular-style-select-directive",
+    "version": "0.1.0",
+    "main": [
+        "jcStyleSelect.css",
+        "jcStyleSelect.js"
+    ],
+    "dependencies": {
+        "angular": "~1.2.0"
+    }
+}
