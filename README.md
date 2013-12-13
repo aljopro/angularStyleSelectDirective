@@ -1,7 +1,7 @@
 Stylable Select Directive
 ===========================
 
-A Directive for select controls making them stylable.
+A Directive for select controls making them stylable. Check out the demo at http://johnchappell.net/angularStyleSelectDirective/demo.html
 
 Usage:
 
