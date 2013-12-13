@@ -5,9 +5,15 @@
     <link rel="stylesheet" href="jcStyleSelect.css" type="text/css">
 </head>
 <body ng-app="myApp" ng-controller="MainCtrl">
+<div class="jc-styled">
+    <select jc-style-select ng-class="{karma: selectedThing == 'Karma'}" ng-options="thing for thing in awesomeThings" ng-model="selectedThing"></select>
+    <span>{{ selectedThing }}</span>
+</div>
+<div class="no-style">
+    <select jc-style-select ng-options="thing for thing in awesomeThings" ng-model="anotherThing"></select>
+    <div>{{ anotherThing }}</div>
+</div>
 
-<select jc-style-select ng-class="{karma: selectedThing == 'Karma'}" ng-options="thing for thing in awesomeThings" ng-model="selectedThing"></select>
-<span>{{ selectedThing }}</span>
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.min.js"></script>
@@ -22,6 +28,7 @@
             'Something really long to play with'
         ];
         $scope.selectedThing = $scope.awesomeThings[0];
+        $scope.anotherThing =  $scope.awesomeThings[0];
     });
 </script>
 </html>

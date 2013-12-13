@@ -20,15 +20,13 @@
     opacity: 0;
     filter: alpha(opacity=0);
     cursor: pointer;
-    height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* the rest is just the theme */
-.jc-style-select {
+.jc-styled .jc-style-select {
     color: #777;
     border: 1px solid #d5d5d5;
     background: #f5f5f5;
@@ -37,7 +35,7 @@
     padding: 4px 0 4px 8px;
 }
 
-.jc-style-select:before {
+.jc-styled .jc-style-select:before {
     content: '▾';
     font-size: x-small;
     height: 100%;
@@ -48,7 +46,7 @@
     padding: 7px 8px;
 }
 
-.jc-style-select-value {
+.jc-styled .jc-style-select-value {
     text-shadow: 0 1px 0 #fff;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -56,6 +54,6 @@
     width: 150px;
     margin: 0 32px 0 8px;
 }
-.jc-style-select-control-wrapper select {
+.jc-styled .jc-style-select-control-wrapper select {
     width: 182px;
 }
