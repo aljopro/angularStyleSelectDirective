@@ -19,5 +19,7 @@ Add to directive to a select control
 
 Optionally use css provided
 ```
-link rel="stylesheet" href="jcStyleSelect.css" type="text/css">
+<link rel="stylesheet" href="jcStyleSelect.css" type="text/css">
 ```
+
+This directive is released under the MIT License.
