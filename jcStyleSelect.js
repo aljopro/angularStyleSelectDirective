@@ -41,8 +41,7 @@ angular.module('jcStyleSelect', [])
                             thisValue = selectElement.options[selectElement.selectedIndex].text;
 
                             if (thisValue !== lastValue) {
-
-                                selectValueElement.innerText = thisValue;
+                                selectValueElement.innerHTML = thisValue;
                             }
 
                             lastValue = thisValue;
