@@ -22,4 +22,9 @@ Optionally use css provided
 <link rel="stylesheet" href="jcStyleSelect.css" type="text/css">
 ```
 
+Install this directive via bower
+```
+bower install angular-style-select-directive
+```
+
 This directive is released under the MIT License.
